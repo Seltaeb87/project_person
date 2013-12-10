@@ -26,6 +26,9 @@ class Person{
 		$this->nose = $nose;
 	}
 	
+	public function showFirstName(){
+		return $this->firstName;
+	}
 	public function postGender(){
 		return $this->gender;
 	}
